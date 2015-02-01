@@ -1,0 +1,152 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="logo/logo.ai Assets/Layer 1/gray_2" itemID="54ce9e7b-0000015d" lastModified="1422828570" lastUniqueIdentifier="5">
+  <timeline>
+    <DOMTimeline name="gray_2">
+      <layers>
+        <DOMLayer name="gray-2" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="logo/logo-background/logo-gray-square-anim-3">
+                  <matrix>
+                    <Matrix tx="162" ty="486.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="logo/logo-background/logo-gray-square-anim-3">
+                  <matrix>
+                    <Matrix tx="648.1" ty="324.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="logo/logo-background/logo-gray-square-anim-3">
+                  <matrix>
+                    <Matrix tx="1134.15" ty="162"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="logo/logo-background/logo-gray-square-anim-3">
+                  <matrix>
+                    <Matrix tx="1458.15" ty="486.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="logo/logo-background/logo-gray-square-anim-4">
+                  <matrix>
+                    <Matrix tx="1458.25" ty="162"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="logo/logo-background/logo-gray-square-anim-4">
+                  <matrix>
+                    <Matrix tx="1782.25" ty="486.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="logo/logo-background/logo-gray-square-anim-4">
+                  <matrix>
+                    <Matrix tx="486.1" ty="486.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="logo/logo-background/logo-gray-square-anim-4">
+                  <matrix>
+                    <Matrix tx="162.05" ty="162"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="logo/logo-background/logo-gray-square-anim-4">
+                  <matrix>
+                    <Matrix tx="972.1" ty="324"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="logo/logo-background/logo-gray-square-anim-2">
+                  <matrix>
+                    <Matrix tx="324.05" ty="324.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="logo/logo-background/logo-gray-square-anim-2">
+                  <matrix>
+                    <Matrix tx="810.15" ty="162"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="logo/logo-background/logo-gray-square-anim-2">
+                  <matrix>
+                    <Matrix tx="1134.15" ty="486.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="logo/logo-background/logo-gray-square-anim-1">
+                  <matrix>
+                    <Matrix tx="1782.25" ty="162"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="logo/logo-background/logo-gray-square-anim-1">
+                  <matrix>
+                    <Matrix tx="1296.15" ty="324.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="logo/logo-background/logo-gray-square-anim-1">
+                  <matrix>
+                    <Matrix tx="810.1" ty="486.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="logo/logo-background/logo-gray-square-anim-1">
+                  <matrix>
+                    <Matrix tx="486.1" ty="162"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="logo/logo-background/logo-gray-square-anim-2">
+                  <matrix>
+                    <Matrix tx="1620.2" ty="324.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

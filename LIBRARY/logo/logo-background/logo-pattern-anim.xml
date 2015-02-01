@@ -1,0 +1,27 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="logo/logo-background/logo-pattern-anim" itemID="54ce9f3b-00000192" lastModified="1422827323">
+  <timeline>
+    <DOMTimeline name="logo-pattern-anim">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="logo/logo.ai Assets/Layer 1/gray_2" selected="true" blendMode="layer">
+                  <matrix>
+                    <Matrix tx="-972.15" ty="-324.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="972.1" y="324.05"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.30078125"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

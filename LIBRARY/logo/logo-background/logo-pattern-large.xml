@@ -1,0 +1,43 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="logo/logo-background/logo-pattern-large" itemID="54ce9eee-0000017c" lastModified="1422827323" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="logo-pattern-large">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="logo/logo.ai Assets/Layer 1/gray_1" blendMode="layer">
+                  <matrix>
+                    <Matrix tx="810.05" ty="-324.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="891.1" y="324.05"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.30078125"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="logo/logo.ai Assets/Layer 1/gray" blendMode="layer">
+                  <matrix>
+                    <Matrix tx="-2592.25" ty="-324.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="891.05" y="324.05"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.30078125"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="logo/logo-background/logo-pattern-anim">
+                  <transformationPoint>
+                    <Point x="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,230 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="logo/logo.ai Assets/Layer 1/gray" itemID="54ce9e7b-00000161" lastModified="1422827131">
+  <timeline>
+    <DOMTimeline name="gray">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#929397"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!29162 6481|25923 3241!25923 3241|29162 0!29162 0|32402 3241!32402 3241|29162 6481"/>
+                        <Edge cubics="!29162 6481(;29162,6481 25923,3241 25923,3241q29162 6481 25923 3241);"/>
+                        <Edge cubics="!25923 3241(;25923,3241 29162,0 29162,0q25923 3241 29162 0);"/>
+                        <Edge cubics="!29162 0(;29162,0 32402,3241 32402,3241q29162 0 32402 3241);"/>
+                        <Edge cubics="!32402 3241(;32402,3241 29162,6481 29162,6481q32402 3241 29162 6481);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#C3C3C2"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!32402 9721|29162 6481!29162 6481|32402 3241!32402 3241|35642 6481!35642 6481|32402 9721"/>
+                        <Edge cubics="!32402 9721(;32402,9721 29162,6481 29162,6481q32402 9721 29162 6481);"/>
+                        <Edge cubics="!29162 6481(;29162,6481 32402,3241 32402,3241q29162 6481 32402 3241);"/>
+                        <Edge cubics="!32402 3241(;32402,3241 35642,6481 35642,6481q32402 3241 35642 6481);"/>
+                        <Edge cubics="!35642 6481(;35642,6481 32402,9721 32402,9721q35642 6481 32402 9721);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#6D6D70"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!22682 6481|19442 3241!19442 3241|22682 0!22682 0|25923 3241!25923 3241|22682 6481"/>
+                        <Edge cubics="!22682 6481(;22682,6481 19442,3241 19442,3241q22682 6481 19442 3241);"/>
+                        <Edge cubics="!19442 3241(;19442,3241 22682,0 22682,0q19442 3241 22682 0);"/>
+                        <Edge cubics="!22682 0(;22682,0 25923,3241 25923,3241q22682 0 25923 3241);"/>
+                        <Edge cubics="!25923 3241(;25923,3241 22682,6481 22682,6481q25923 3241 22682 6481);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#6D6D70"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!29162 12962|25923 9721!25923 9721|29162 6481!29162 6481|32402 9721!32402 9721|29162 12962"/>
+                        <Edge cubics="!29162 12962(;29162,12962 25923,9721 25923,9721q29162 12962 25923 9721)25923,9721;"/>
+                        <Edge cubics="!25923 9721(;25923,9721 29162,6481 29162,6481q25923 9721 29162 6481);"/>
+                        <Edge cubics="!29162 6481(;29162,6481 32402,9721 32402,9721q29162 6481 32402 9721);"/>
+                        <Edge cubics="!32402 9721(;32402,9721 29162,12962 29162,12962q32402 9721 29162 12962);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#C3C3C2"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!16202 6481|12961 3241!12961 3241|16202 0!16202 0|19442 3241!19442 3241|16202 6481"/>
+                        <Edge cubics="!16202 6481(;16202,6481 12961,3241 12961,3241q16202 6481 12961 3241);"/>
+                        <Edge cubics="!12961 3241(;12961,3241 16202,0 16202,0q12961 3241 16202 0);"/>
+                        <Edge cubics="!16202 0(;16202,0 19442,3241 19442,3241q16202 0 19442 3241)19442,3241;"/>
+                        <Edge cubics="!19442 3241(;19442,3241 16202,6481 16202,6481q19442 3241 16202 6481);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#929397"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!19442 9721|16202 6481!16202 6481|19442 3241!19442 3241|22682 6481!22682 6481|19442 9721"/>
+                        <Edge cubics="!19442 9721(;19442,9721 16202,6481 16202,6481q19442 9721 16202 6481)16202,6481;"/>
+                        <Edge cubics="!16202 6481(;16202,6481 19442,3241 19442,3241q16202 6481 19442 3241)19442,3241;"/>
+                        <Edge cubics="!19442 3241(;19442,3241 22682,6481 22682,6481q19442 3241 22682 6481);"/>
+                        <Edge cubics="!22682 6481(;22682,6481 19442,9721 19442,9721q22682 6481 19442 9721);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#C3C3C2"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!22682 12962|19442 9721!19442 9721|22682 6481!22682 6481|25923 9721!25923 9721|22682 12962"/>
+                        <Edge cubics="!22682 12962(;22682,12962 19442,9721 19442,9721q22682 12962 19442 9721)19442,9721;"/>
+                        <Edge cubics="!19442 9721(;19442,9721 22682,6481 22682,6481q19442 9721 22682 6481);"/>
+                        <Edge cubics="!22682 6481(;22682,6481 25923,9721 25923,9721q22682 6481 25923 9721)25923,9721;"/>
+                        <Edge cubics="!25923 9721(;25923,9721 22682,12962 22682,12962q25923 9721 22682 12962);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#CBCBCB"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!9721 6481|6481 3241!6481 3241|9721 0!9721 0|12961 3241!12961 3241|9721 6481"/>
+                        <Edge cubics="!9721 6481(;9721,6481 6481,3241 6481,3241q9721 6481 6481 3241);"/>
+                        <Edge cubics="!6481 3241(;6481,3241 9721,0 9721,0q6481 3241 9721 0);"/>
+                        <Edge cubics="!9721 0(;9721,0 12961,3241 12961,3241q9721 0 12961 3241);"/>
+                        <Edge cubics="!12961 3241(;12961,3241 9721,6481 9721,6481q12961 3241 9721 6481);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#6D6D70"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!12961 9721|9721 6481!9721 6481|12961 3241!12961 3241|16202 6481!16202 6481|12961 9721"/>
+                        <Edge cubics="!12961 9721(;12961,9721 9721,6481 9721,6481q12961 9721 9721 6481);"/>
+                        <Edge cubics="!9721 6481(;9721,6481 12961,3241 12961,3241q9721 6481 12961 3241);"/>
+                        <Edge cubics="!12961 3241(;12961,3241 16202,6481 16202,6481q12961 3241 16202 6481);"/>
+                        <Edge cubics="!16202 6481(;16202,6481 12961,9721 12961,9721q16202 6481 12961 9721);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#CBCBCB"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!16202 12962|12961 9721!12961 9721|16202 6481!16202 6481|19442 9721!19442 9721|16202 12962"/>
+                        <Edge cubics="!16202 12962(;16202,12962 12961,9721 12961,9721q16202 12962 12961 9721);"/>
+                        <Edge cubics="!12961 9721(;12961,9721 16202,6481 16202,6481q12961 9721 16202 6481);"/>
+                        <Edge cubics="!16202 6481(;16202,6481 19442,9721 19442,9721q16202 6481 19442 9721);"/>
+                        <Edge cubics="!19442 9721(;19442,9721 16202,12962 16202,12962q19442 9721 16202 12962);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#929397"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!3240 6481|0 3241!0 3241|3240 0!3240 0|6480 3241!6480 3241|3240 6481"/>
+                        <Edge cubics="!3240 6481(;3240,6481 0,3241 0,3241q3240 6481 0 3241);"/>
+                        <Edge cubics="!0 3241(;0,3241 3240,0 3240,0q0 3241 3240 0);"/>
+                        <Edge cubics="!3240 0(;3240,0 6480,3241 6480,3241q3240 0 6480 3241);"/>
+                        <Edge cubics="!6480 3241(;6480,3241 3240,6481 3240,6481q6480 3241 3240 6481);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#C3C3C2"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!6481 9721|3240 6481!3240 6481|6481 3241!6481 3241|9721 6481!9721 6481|6481 9721"/>
+                        <Edge cubics="!6481 9721(;6481,9721 3240,6481 3240,6481q6481 9721 3240 6481);"/>
+                        <Edge cubics="!3240 6481(;3240,6481 6481,3241 6481,3241q3240 6481 6481 3241);"/>
+                        <Edge cubics="!6481 3241(;6481,3241 9721,6481 9721,6481q6481 3241 9721 6481);"/>
+                        <Edge cubics="!9721 6481(;9721,6481 6481,9721 6481,9721q9721 6481 6481 9721);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#929397"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!9721 12962|6481 9721!6481 9721|9721 6481!9721 6481|12961 9721!12961 9721|9721 12962"/>
+                        <Edge cubics="!9721 12962(;9721,12962 6481,9721 6481,9721q9721 12962 6481 9721);"/>
+                        <Edge cubics="!6481 9721(;6481,9721 9721,6481 9721,6481q6481 9721 9721 6481);"/>
+                        <Edge cubics="!9721 6481(;9721,6481 12961,9721 12961,9721q9721 6481 12961 9721);"/>
+                        <Edge cubics="!12961 9721(;12961,9721 9721,12962 9721,12962q12961 9721 9721 12962);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#6D6D70"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!3240 12962|0 9721!0 9721|3240 6481!3240 6481|6480 9721!6480 9721|3240 12962"/>
+                        <Edge cubics="!3240 12962(;3240,12962 0,9721 0,9721q3240 12962 0 9721);"/>
+                        <Edge cubics="!0 9721(0,9721;0,9721 3240,6481 3240,6481q0 9721 3240 6481);"/>
+                        <Edge cubics="!3240 6481(;3240,6481 6480,9721 6480,9721q3240 6481 6480 9721);"/>
+                        <Edge cubics="!6480 9721(;6480,9721 3240,12962 3240,12962q6480 9721 3240 12962);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#CBCBCB"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!25923 9721|22682 6481!22682 6481|25923 3241!25923 3241|29162 6481!29162 6481|25923 9721"/>
+                        <Edge cubics="!25923 9721(25923,9721;25923,9721 22682,6481 22682,6481q25923 9721 22682 6481);"/>
+                        <Edge cubics="!22682 6481(22682,6481;22682,6481 25923,3241 25923,3241q22682 6481 25923 3241);"/>
+                        <Edge cubics="!25923 3241(25923,3241;25923,3241 29162,6481 29162,6481q25923 3241 29162 6481);"/>
+                        <Edge cubics="!29162 6481(;29162,6481 25923,9721 25923,9721q29162 6481 25923 9721);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

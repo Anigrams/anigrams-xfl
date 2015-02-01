@@ -1,0 +1,27 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="button-background" itemID="54cea8f1-00000156" lastModified="1422832384">
+  <timeline>
+    <DOMTimeline name="button-background">
+      <layers>
+        <DOMLayer name="fill" color="#4F80FF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="174.55" objectHeight="174.55" x="-97.5" y="-32" lockFlag="true" topLeftRadius="24.05" topRightRadius="24.05" bottomLeftRadius="24.05" bottomRightRadius="24.05">
+                  <matrix>
+                    <Matrix a="0.319992065429688" d="0.319992065429688" tx="3.25" ty="-17.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-10.15" y="55.15"/>
+                  </transformationPoint>
+                  <fill>
+                    <SolidColor color="#FFFFFF"/>
+                  </fill>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

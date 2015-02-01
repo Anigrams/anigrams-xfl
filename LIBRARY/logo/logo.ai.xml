@@ -1,0 +1,108 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="logo/logo.ai" itemID="54ce9e7b-00000162" symbolType="graphic" lastModified="1422827246" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="logo.ai">
+      <layers>
+        <DOMLayer name="Layer 1" color="#0000FF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMShape isDrawingObject="true">
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal" caps="none" weight="14" joints="miter" miterLimit="10">
+                            <fill>
+                              <SolidColor color="#848668"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!51748 10481[51557 11463 51222 12155!51222 12155[50942 12734 50529 13171!50529 13171[50260 13455 49764 13830!49764 13830[49230 14235 49027 14433"/>
+                        <Edge cubics="!51748 10481(;51202,13285 49949,13533 49027,14433q51748 10481Q51557 11463q51222 12155Q50942 12734q50529 13171Q50260 13455q49764 13830Q49230 14235q49027 14433);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMShape isDrawingObject="true">
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal" caps="none" weight="14" joints="miter" miterLimit="10">
+                            <fill>
+                              <SolidColor color="#848668"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!48184 15890[47988 16567 47421 17160"/>
+                        <Edge cubics="!48184 15890(;48045,16371 47778,16787 47421,17160q48184 15890Q47988 16567q47421 17160);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMGroup>
+                      <members>
+                        <DOMSymbolInstance libraryItemName="logo/logo-text">
+                          <matrix>
+                            <Matrix tx="2585.6" ty="733.4"/>
+                          </matrix>
+                          <transformationPoint>
+                            <Point/>
+                          </transformationPoint>
+                        </DOMSymbolInstance>
+                      </members>
+                    </DOMGroup>
+                    <DOMShape isDrawingObject="true">
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal" caps="none" weight="14" joints="miter" miterLimit="10">
+                            <fill>
+                              <SolidColor color="#848668"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!47421 17160[46861 17745 45797 18370!45797 18370[45417 18594 44823 18910!44823 18910[44150 19265 43814 19447!43814 19447[42590 20108 41901 20634!41901 20634[40951 21360 40491 22177"/>
+                        <Edge cubics="!47421 17160(;45687,18972 41845,19774 40491,22177q47421 17160Q46861 17745q45797 18370Q45417 18594q44823 18910Q44150 19265q43814 19447Q42590 20108q41901 20634Q40951 21360q40491 22177)40491,22177;"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMShape isDrawingObject="true">
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal" caps="none" weight="14" joints="miter" miterLimit="10">
+                            <fill>
+                              <SolidColor color="#848668"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!49027 14433[48744 14709 48550 15029!48550 15029[48324 15403 48184 15890"/>
+                        <Edge cubics="!49027 14433(;48681,14770 48382,15199 48184,15890q49027 14433Q48744 14709q48550 15029Q48324 15403q48184 15890);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMSymbolInstance libraryItemName="logo/logo-balloon">
+                  <matrix>
+                    <Matrix tx="2592.2" ty="281.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="logo/logo-background/logo-pattern-large">
+                  <matrix>
+                    <Matrix tx="2592.25" ty="725.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,51 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="logo/logo-background/logo-gray-square-anim-4" itemID="54cea2ad-000001eb" lastModified="1422828232">
+  <timeline>
+    <DOMTimeline name="logo-gray-square-anim-4">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="80" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="logo/logo-background/gray-square-anim" symbolType="graphic" firstFrame="69" loop="loop">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A">
+          <frames>
+            <DOMFrame index="0" duration="80" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="logo/logo-background/gray-square-anim" symbolType="graphic" loop="loop">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-486.05" ty="-162"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#CBCBCB"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!9722 6481|6481 3241!6481 3241|9722 0!9722 0|12962 3241!12962 3241|9722 6481"/>
+                    <Edge cubics="!9722 6481(;9722,6481 6481,3241 6481,3241q9722 6481 6481 3241);"/>
+                    <Edge cubics="!6481 3241(;6481,3241 9722,0 9722,0q6481 3241 9722 0);"/>
+                    <Edge cubics="!9722 0(;9722,0 12962,3241 12962,3241q9722 0 12962 3241);"/>
+                    <Edge cubics="!12962 3241(;12962,3241 9722,6481 9722,6481q12962 3241 9722 6481);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
