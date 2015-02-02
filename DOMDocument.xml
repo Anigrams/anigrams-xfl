@@ -1,20 +1,20 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#3E2036" width="480" height="800" currentTimeline="1" xflVersion="2.5" creatorInfo="Adobe Flash Professional CC" platform="Windows" versionInfo="Saved by Adobe Flash Windows 14.1 build 96" majorVersion="14" minorVersion="1" buildNumber="96" guidesVisible="false" vanishingPoint3DX="240" vanishingPoint3DY="400" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#FF6666" width="480" height="800" currentTimeline="1" xflVersion="2.5" creatorInfo="Adobe Flash Professional CC" platform="Windows" versionInfo="Saved by Adobe Flash Windows 14.1 build 96" majorVersion="14" minorVersion="1" buildNumber="96" guidesVisible="false" vanishingPoint3DX="240" vanishingPoint3DY="400" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F">
      <folders>
-          <DOMFolderItem name="logo" itemID="54ce9e92-00000171" isExpanded="true"/>
+          <DOMFolderItem name="logo" itemID="54ce9e92-00000171"/>
           <DOMFolderItem name="logo/logo-background" itemID="54cea575-00000134"/>
           <DOMFolderItem name="logo/logo.ai Assets" itemID="54ce9e7b-0000015a"/>
           <DOMFolderItem name="logo/logo.ai Assets/Layer 1" itemID="54ce9e7b-0000015b"/>
      </folders>
      <symbols>
-          <Include href="ballon-transition.xml" loadImmediate="false" itemID="54ceb050-00000181" lastModified="1422832032"/>
           <Include href="balloon-swivelling.xml" loadImmediate="false" itemID="54ceae4f-00000171" lastModified="1422831608"/>
-          <Include href="button-background.xml" loadImmediate="false" itemID="54cea8f1-00000156" lastModified="1422832384"/>
+          <Include href="button-background.xml" loadImmediate="false" itemID="54cea8f1-00000156" lastModified="1422840619"/>
+          <Include href="generic-button.xml" loadImmediate="false" itemID="54ced0a6-0000007f" lastModified="1422840877"/>
           <Include href="logo/logo-background/gray-square-anim.xml" itemIcon="1" loadImmediate="false" itemID="54cea271-000001e2" lastModified="1422828145"/>
           <Include href="logo/logo-background/logo-gray-square-anim-1.xml" loadImmediate="false" itemID="54cea283-000001e4" lastModified="1422828166"/>
           <Include href="logo/logo-background/logo-gray-square-anim-2.xml" loadImmediate="false" itemID="54cea223-000001dc" lastModified="1422828208"/>
           <Include href="logo/logo-background/logo-gray-square-anim-3.xml" loadImmediate="false" itemID="54cea23a-000001e1" lastModified="1422828192"/>
           <Include href="logo/logo-background/logo-gray-square-anim-4.xml" loadImmediate="false" itemID="54cea2ad-000001eb" lastModified="1422828232"/>
-          <Include href="logo/logo-background/logo-pattern-anim.xml" loadImmediate="false" itemID="54ce9f3b-00000192" lastModified="1422827323"/>
+          <Include href="logo/logo-background/logo-pattern-anim.xml" loadImmediate="false" itemID="54ce9f3b-00000192" lastModified="1422837996"/>
           <Include href="logo/logo-background/logo-pattern-large.xml" loadImmediate="false" itemID="54ce9eee-0000017c" lastModified="1422827323"/>
           <Include href="logo/logo-balloon.xml" loadImmediate="false" itemID="54ce9eac-00000174" lastModified="1422827180"/>
           <Include href="logo/logo-text.xml" loadImmediate="false" itemID="54ce9ec7-00000178" lastModified="1422832266"/>
@@ -22,21 +22,19 @@
           <Include href="logo/logo.ai Assets/Layer 1/gray.xml" loadImmediate="false" itemID="54ce9e7b-00000161" lastModified="1422827131"/>
           <Include href="logo/logo.ai Assets/Layer 1/gray_1.xml" loadImmediate="false" itemID="54ce9e7b-0000015f" lastModified="1422827131"/>
           <Include href="logo/logo.ai Assets/Layer 1/gray_2.xml" loadImmediate="false" itemID="54ce9e7b-0000015d" lastModified="1422828570"/>
-          <Include href="play-button.xml" loadImmediate="false" itemID="54cea5b9-0000013b" lastModified="1422832374"/>
-          <Include href="transition-yellow-block.xml" loadImmediate="false" itemID="54ceb0e2-0000018b" lastModified="1422831842"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="39">
+          <DOMTimeline name="Scene 1">
                <layers>
                     <DOMLayer name="actions" color="#FF800A" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="39" keyMode="9728">
+                              <DOMFrame index="0" duration="7" keyMode="9728">
                                    <Actionscript>
                                         <script><![CDATA[this.btn_play.stop();]]></script>
                                    </Actionscript>
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="39" keyMode="9728">
+                              <DOMFrame index="7" keyMode="9728">
                                    <Actionscript>
                                         <script><![CDATA[import flash.events.Event;
 
@@ -46,7 +44,8 @@ this.btn_play.play();
 this.btn_play.addEventListener(MouseEvent.CLICK, onBTNPlayClick);
 
 function onBTNPlayClick(e:Event) {
-	this.mov_transition.play();
+	this.gotoAndPlay(1);
+//	this.mov_transition.play();
 }]]></script>
                                    </Actionscript>
                                    <elements/>
@@ -55,25 +54,39 @@ function onBTNPlayClick(e:Event) {
                     </DOMLayer>
                     <DOMLayer name="transition" color="#FF4FFF" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="40" keyMode="9728">
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="ballon-transition" name="mov_transition">
-                                             <matrix>
-                                                  <Matrix tx="-123.85" ty="522.8"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point x="52.5" y="69"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                   </elements>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" keyMode="9728">
+                                   <elements/>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="logo" color="#4F80FF" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="40" keyMode="9728">
+                              <DOMFrame index="0" duration="7" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="logo/logo-background/logo-pattern-anim">
+                                        <DOMSymbolInstance libraryItemName="logo/logo-background/logo-pattern-anim" blendMode="lighten">
+                                             <matrix>
+                                                  <Matrix a="0.2232666015625" d="0.2232666015625" tx="240" ty="240.55"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="logo/logo-text">
+                                             <matrix>
+                                                  <Matrix a="0.199996948242188" d="0.199996948242188" tx="240" ty="240.55"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="7" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="logo/logo-background/logo-pattern-anim" blendMode="lighten">
                                              <matrix>
                                                   <Matrix a="0.2232666015625" d="0.2232666015625" tx="240" ty="240.55"/>
                                              </matrix>
@@ -93,19 +106,41 @@ function onBTNPlayClick(e:Event) {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="buttons" color="#9933CC" current="true" isSelected="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="buttons" color="#9933CC" current="true" isSelected="true" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="40" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
-                                   <motionObjectXML><AnimationCore TimeScale="24000" Version="1" duration="40000"><TimeMap strength="0" type="Quadratic"/><TimeMap strength="5" type="Spring"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.500498" xformPtYOffsetPct="0.500498" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="39000"/></Property><Property TimeMapIndex="1" enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,857.85" next="0,857.85" previous="0,857.85" roving="0" timevalue="39000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="39000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="39000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="39000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,147.107" next="0,147.107" previous="0,147.107" roving="0" timevalue="0"/><Keyframe anchor="0,147.107" next="0,147.107" previous="0,147.107" roving="0" timevalue="39000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,147.107" next="0,147.107" previous="0,147.107" roving="0" timevalue="0"/><Keyframe anchor="0,147.107" next="0,147.107" previous="0,147.107" roving="0" timevalue="39000"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+                              <DOMFrame index="0" duration="7" tweenType="motion" motionTweenSnap="true" keyMode="22017">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="play-button" name="btn_play">
+                                        <DOMComponentInstance libraryItemName="generic-button" name="btn_play" uniqueID="1">
                                              <matrix>
-                                                  <Matrix a="1.4710693359375" d="1.4710693359375" tx="240" ty="-27.15"/>
+                                                  <Matrix tx="240" ty="508.15"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point/>
                                              </transformationPoint>
-                                        </DOMSymbolInstance>
+                                             <color>
+                                                  <Color alphaMultiplier="0"/>
+                                             </color>
+                                             <parametersAsXML><![CDATA[   <property id="color">
+      <Inspectable name="color" variable="color" category="" verbose="0" defaultValue="#3300FF" type="Color"/>
+   </property>
+]]></parametersAsXML>
+                                        </DOMComponentInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="7" keyMode="9728">
+                                   <elements>
+                                        <DOMComponentInstance libraryItemName="generic-button" name="btn_play" selected="true" uniqueID="2">
+                                             <matrix>
+                                                  <Matrix a="1.4710693359375" d="1.4710693359375" tx="240" ty="508.15"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <parametersAsXML><![CDATA[   <property id="color">
+      <Inspectable name="color" variable="color" category="" verbose="0" defaultValue="#000000" type="Color"/>
+   </property>
+]]></parametersAsXML>
+                                        </DOMComponentInstance>
                                    </elements>
                               </DOMFrame>
                          </frames>
@@ -116,8 +151,8 @@ function onBTNPlayClick(e:Event) {
      <persistentData>
           <PD n="com.air.artemis.airdest" v="Anigrams-flash.apk"/>
           <PD n="ane.tmp.unzipped.folder" v="C:\Users\Cole\AppData\Local\Temp\Tmp_ANE_File_Unzipped_Packages"/>
+          <PD n="DebugMovieChecked" v="ADLDesktop"/>
           <PD n="com.air.oldTargetPlatform" v="Android"/>
-          <PD n="DebugMovieChecked" v="OnDevice"/>
           <PD n="com.air.artemis.pubair" v="true"/>
           <PD n="com.air.sdk.path"/>
           <PD n="com.air.agistri.proctype" v="arm"/>
@@ -128,28 +163,29 @@ function onBTNPlayClick(e:Event) {
           <PD n="com.air.agistri.hostip" v="Default"/>
           <PD n="flash.fla.filepath" v="D:/Users/Cole/Desktop/anigrams-assets/Anigrams-flash/Anigrams-flash.xfl"/>
           <PD n="swf.folder.path" v="D:/Users/Cole/Desktop/anigrams-assets/"/>
+          <PD n="Menu Key Pressed Event" t="i" v="2"/>
      </persistentData>
      <PrinterSettings/>
      <publishHistory>
-          <PublishItem publishSize="6631" publishTime="1422834227" publishDebug="true"/>
-          <PublishItem publishSize="6633" publishTime="1422834206" publishDebug="true"/>
-          <PublishItem publishSize="6631" publishTime="1422834190" publishDebug="true"/>
-          <PublishItem publishSize="6390" publishTime="1422833927"/>
-          <PublishItem publishSize="6632" publishTime="1422832388"/>
-          <PublishItem publishSize="6758" publishTime="1422832347"/>
-          <PublishItem publishSize="6520" publishTime="1422832206"/>
-          <PublishItem publishSize="6520" publishTime="1422832190"/>
-          <PublishItem publishSize="5423" publishTime="1422831614"/>
-          <PublishItem publishSize="5454" publishTime="1422831593"/>
-          <PublishItem publishSize="5396" publishTime="1422831528"/>
-          <PublishItem publishSize="5484" publishTime="1422831416"/>
-          <PublishItem publishSize="5518" publishTime="1422831280"/>
-          <PublishItem publishSize="4271" publishTime="1422831091"/>
-          <PublishItem publishSize="4265" publishTime="1422830972"/>
-          <PublishItem publishSize="4182" publishTime="1422830891"/>
-          <PublishItem publishSize="4182" publishTime="1422830858"/>
-          <PublishItem publishSize="4209" publishTime="1422830615"/>
-          <PublishItem publishSize="3609" publishTime="1422830473"/>
-          <PublishItem publishSize="3674" publishTime="1422830427"/>
+          <PublishItem publishSize="4950" publishTime="1422840856"/>
+          <PublishItem publishSize="4652" publishTime="1422840802" publishDebug="true"/>
+          <PublishItem publishSize="4610" publishTime="1422840773" publishDebug="true"/>
+          <PublishItem publishSize="4294" publishTime="1422840404" publishDebug="true"/>
+          <PublishItem publishSize="4295" publishTime="1422840377" publishDebug="true"/>
+          <PublishItem publishSize="4288" publishTime="1422840338" publishDebug="true"/>
+          <PublishItem publishSize="4288" publishTime="1422840293" publishDebug="true"/>
+          <PublishItem publishSize="3908" publishTime="1422839566" publishDebug="true"/>
+          <PublishItem publishSize="3916" publishTime="1422839530" publishDebug="true"/>
+          <PublishItem publishSize="3916" publishTime="1422839517" publishDebug="true"/>
+          <PublishItem publishSize="4074" publishTime="1422839449"/>
+          <PublishItem publishSize="4053" publishTime="1422839399" publishDebug="true"/>
+          <PublishItem publishSize="4434" publishTime="1422839311" publishDebug="true"/>
+          <PublishItem publishSize="4181" publishTime="1422839189" publishDebug="true"/>
+          <PublishItem publishSize="4416" publishTime="1422839157" publishDebug="true"/>
+          <PublishItem publishSize="4567" publishTime="1422838961" publishDebug="true"/>
+          <PublishItem publishSize="4470" publishTime="1422838908" publishDebug="true"/>
+          <PublishItem publishSize="4396" publishTime="1422838849" publishDebug="true"/>
+          <PublishItem publishSize="4391" publishTime="1422838767" publishDebug="true"/>
+          <PublishItem publishSize="4904" publishTime="1422838738" publishDebug="true"/>
      </publishHistory>
 </DOMDocument>

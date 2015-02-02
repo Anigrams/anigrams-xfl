@@ -1,21 +1,28 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="button-background" itemID="54cea8f1-00000156" lastModified="1422832384">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="button-background" itemID="54cea8f1-00000156" lastModified="1422840619">
   <timeline>
     <DOMTimeline name="button-background">
       <layers>
-        <DOMLayer name="fill" color="#4F80FF" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="fill copy" color="#4F80FF" current="true" isSelected="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" keyMode="9728">
+            <DOMFrame index="0" keyMode="15872">
               <elements>
-                <DOMRectangleObject objectWidth="174.55" objectHeight="174.55" x="-97.5" y="-32" lockFlag="true" topLeftRadius="24.05" topRightRadius="24.05" bottomLeftRadius="24.05" bottomRightRadius="24.05">
+                <DOMRectangleObject objectWidth="174.55" objectHeight="174.55" x="-97.5" y="-32" lockFlag="true">
                   <matrix>
-                    <Matrix a="0.319992065429688" d="0.319992065429688" tx="3.25" ty="-17.7"/>
+                    <Matrix a="0.263580322265625" d="0.263580322265625" tx="2.7" ty="-14.55"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="-10.15" y="55.15"/>
+                    <Point x="-10.05" y="55.2"/>
                   </transformationPoint>
                   <fill>
-                    <SolidColor color="#FFFFFF"/>
+                    <SolidColor color="#333333"/>
                   </fill>
+                  <stroke>
+                    <SolidStroke scaleMode="normal">
+                      <fill>
+                        <SolidColor/>
+                      </fill>
+                    </SolidStroke>
+                  </stroke>
                 </DOMRectangleObject>
               </elements>
             </DOMFrame>
